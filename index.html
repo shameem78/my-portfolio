@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Parallax Section -->
+    <div class="parallax" id="parallax-home">
+        <div class="overlay">
+            <h1>Welcome to My Portfolio</h1>
+            <p>A brief introduction about yourself.</p>
+        </div>
+    </div>
+
+    <section id="home" class="content-section">
+        <h2>Home</h2>
+        <p>Welcome to my portfolio. Here, you'll find my work and learn more about me.</p>
+    </section>
+    
+    <!-- Parallax Section -->
+    <div class="parallax" id="parallax-about">
+        <div class="overlay">
+            <h1>About Me</h1>
+        </div>
+    </div>
+
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Details about your background, skills, and experience.</p>
+    </section>
+    
+    <!-- Parallax Section -->
+    <div class="parallax" id="parallax-portfolio">
+        <div class="overlay">
+            <h1>My Work</h1>
+        </div>
+    </div>
+
+    <section id="portfolio" class="content-section">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <!-- Showcase your projects here -->
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    <!-- Parallax Section -->
+    <div class="parallax" id="parallax-contact">
+        <div class="overlay">
+            <h1>Contact Me</h1>
+        </div>
+    </div>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p>How to get in touch with you.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>

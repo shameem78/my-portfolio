@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.parallax {
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#parallax-home {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+#parallax-about {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+#parallax-portfolio {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+#parallax-contact {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+.content-section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    flex: 1 1 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 12px #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
